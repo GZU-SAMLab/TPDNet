@@ -13,14 +13,11 @@ We use the Wax Gourd 3D Object Detection DataSets ([dataset](http://tpdnet.samla
 
 
 ## Training
-./launcher/train.sh config/config.py
-```
-# Testing
 ./launcher/eval.sh config/config.py
 ```
-
-## Mode Weight
-
+## Testing
+./launcher/eval.sh config/config.py
+```
 
 ## Result
 ![](result.png)
